@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="color_game_practice.css">
+
+
+    
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row grid_container_header">
+            <div class="col-2 text-center align-middle player1Score">0</div>
+            <div class="col-1 empty1"></div>    
+            <div class="col-6 text-center"><p>THE GREAT <br><span id="colorDisplay"> RGB </span><br> COLOR GAME</p></div>
+            <div class="col-3 empty2"></div>
+        </div>
+        
+        <div class="row" id="stripe">
+                <div class="col-2"><span id="player1Display">PLAYER 1</span></div>
+                <div class="col-1"><span id="empty_stripe"></span></div>    
+                <div class="col-1"><button id="resetButton">New Colors</button></div>
+                <div class="col-4"><span id  = "message"></span></div>
+                <div class="col-1"><button class ="mode" id="easyButton"> Easy </button></div>
+                <div class="col-1"><button  class= "mode selected" id= "hardButton"> Hard </button></span></div>
+                <div class="col-2"><span id="empty_stripe"></span></div>   
+            </div>    
+        <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div></div></div>        
+                
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div></div></div> 
+        </div>        
+    </div>            
+    <script type="text/javascript"0 src="color_game_practice.js"></script>
+</body>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+</html>

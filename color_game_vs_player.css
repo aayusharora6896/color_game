@@ -1,0 +1,211 @@
+body{
+    background-color: #232323;
+    margin: 0px 0px;
+    font-family: "Montserrat", "Avenir";
+}
+
+.grid_container_header{
+    background-color: steelblue;
+}
+
+
+@media (min-width: 1008px){
+    p{
+            font-size: 30px;
+    }
+    .player1Score{
+        font-size: 60px;
+    }    
+    .player2Score{
+        font-size: 60px;
+    }    
+    #colorDisplay{
+    font-size: 200%;
+    }
+}
+
+@media (min-width:905px) and  (max-width: 1007px){
+    p{
+            font-size: 25px;
+    }
+    .player1Score{
+        font-size: 55px;
+    }
+    .player2Score{
+        font-size: 55px;
+    }
+    #colorDisplay{
+    font-size: 200%;    
+    }        
+} 
+ 
+@media (min-width:769px) and  (max-width: 904px){
+    p{
+            font-size: 22.5px;
+    }
+    .player1Score{
+        font-size: 55px;
+    }
+    .player2Score{
+        font-size: 55px;
+    }
+    #colorDisplay{
+    font-size: 180%;    
+    }        
+} 
+
+@media (min-width:541px) and  (max-width: 768px){
+    p{
+            font-size: 20px;
+    }
+
+    .player1Score{
+        font-size: 50px;
+    } 
+    .player2Score{
+        font-size: 50px;
+    } 
+    #colorDisplay{
+    font-size: 160%;
+    }       
+} 
+
+
+@media (max-width: 540px){
+    p{
+         font-size: 15px;
+    }
+    .player1Score{
+        font-size: 40px;
+    }  
+    .player2Score{
+        font-size: 40px;
+    }  
+    #colorDisplay{
+        font-size: 150%;
+    }  
+}
+    
+    
+p{
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.1;
+    padding: 20px 0px;
+}
+.container{
+    background-color: #232323;
+}
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background-color 0.6s;
+    --webkit-transition: background-color 0.3s;
+    --moz-transition: background-color 0.3s;
+}
+
+p{
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.1;
+    padding: 20px 0px;
+
+}
+
+.empty1{
+    background-color: steelblue;
+}
+
+.empty2{
+    background-color: steelblue;
+}
+
+#message{
+    color: black;
+}
+
+#stripe{
+    background-color: white;
+    height: 80px;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.selected{
+    background-color: red;
+    color: white;
+    height: 80px;  
+}
+
+#colorDisplay{
+    font-size: 200%;
+}
+
+
+#message{
+    display: inline-block;
+    width: 20%;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 80px;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    --webkit-transition: all 0.3s;
+    --moz-transition: all 0.3s;
+    outline: none;
+}
+
+button:hover{
+    color:white;
+    background: steelblue;
+}
+
+.player1Score{
+    font-size: 60px;
+    padding-top: 100px;
+    text-align: center;
+    background-color: steelblue;
+}
+
+.player2Score{
+    font-size: 60px;
+    padding-top: 100px;
+    text-align: center;
+    background-color: steelblue;
+}
+
+#player1Display{
+    font-weight:700;
+    font-size:large;
+    padding-top: 25px;
+    padding-left: 7px;
+    height: 55px;
+    text-align: center;
+}
+
+#player2Display{
+    font-weight:700;
+    font-size:large;
+    padding-top: 25px;
+    padding-left: 7px;
+    height: 55px;
+    text-align: center;
+}
